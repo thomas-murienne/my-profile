@@ -1,0 +1,282 @@
+.section-1 {
+background-image: url(images/tlchargement.png);
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin: 70px auto 0;
+    padding: 10px;
+}
+
+.section-1 .text-2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 12px 0 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.image {
+    background-size: cover;
+}
+
+@media (max-width: 1199px)
+.section-1 .text-1 {
+    margin-top: 60px;
+}
+
+@media (max-width: 991px)
+.section-1 .text-2 {
+    margin-top: 0;
+}
+
+.font-montserrat {
+    font-family: Montserrat, sans-serif !important;
+}
+
+h2:not(.u-subtitle) {
+line-height: 1.1;
+}
+
+.text-body-alt-color, a.u-button-style.u-text-body-alt-color, a.u-button-style.u-text-body-alt-color[class*="u-border-"] {
+    color: #ffffff !important;
+}
+
+.text-palette-2-base, a.u-button-style.u-text-palette-2-base, a.u-button-style.u-text-palette-2-base[class*="u-border-"] {
+    color: #db545a !important;
+}
+
+.font-roboto {
+    font-family: Roboto, sans-serif !important;
+}
+
+.u-palette-4-base, .u-body.u-palette-4-base, .u-container-style.u-palette-4-base:before, .u-container-layout.u-palette-4-base:before, .u-table-alt-palette-4-base tr:nth-child(even) {
+    color: #ffffff;
+    background-color: #2cccc4;
+}
+
+.section-1 .text-3 {
+    width: 475px;
+    background-image: none;
+    font-size: 1.125rem;
+    margin: 16px auto 0;
+}
+
+.section-1 .image-1 {
+    width: 369px;
+    height: 369px;
+    background-image: url(images/profite-picture2.JPG);
+    background-position: 50% 50%;
+    margin: 30px auto 60px;
+}
+
+.image-circle {
+    border-radius: 50% !important;
+}
+
+.section-2 .text-1 {
+    font-size: 3.75rem;
+    font-weight: bold;
+    margin: 70px auto 0;
+}
+
+
+
+
+body {
+background-color: white;
+color: rgb(30, 30, 30);
+font-family: Courier, monospace;
+}
+
+h1 {
+color: green;
+text-align: center;
+font-weight: 100;
+font-family: Helvetica, monospace;
+font-size: 30px;
+font-weight: bold;
+}
+
+h4 {
+letter-spacing: normal;
+font-weight: normal;
+text-transform: none;
+margin: 35px auto 0;
+color: #db545a;
+font-size: 1.5rem;
+line-height: 1.2;
+margin-top: 20px;
+margin-bottom: 20px;
+font-weight: 400;
+text-transform: none;
+list-icon-spacing: 0.3;
+list-icon-size: 0.8;
+font-family: Lobster,display;
+}
+
+.card-green{
+border-radius: 15px !important;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 15px;
+position: relative;
+flex: 1;
+max-width: 100%;
+background-color: #eafdfc;
+}
+
+.text-6{
+font-size: 1rem;
+line-height: 28.8px;
+margin: 15px 0 0;
+font-family: 'Open Sans',sans-serif;
+color: #6b4748;
+}
+
+
+/* Custom design with class (99% of my design) */
+
+.contain{
+width: 700px;
+margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+  .container{
+    width: 700px;
+  }
+}
+
+
+@media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+  .container{
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+  .container{
+    width: 300px;
+  }
+}
+
+.card-white{
+background-color: white;
+padding: 30px;
+box-shadow: 0 10px 30px rgba(0,0,0,.1); /* Stripe shadow */
+border-radius: 15px;
+margin: 20px 0px;
+text-align: center;
+}
+
+.card-greyblack{
+  background-color: #333333;
+padding: 5px;
+box-shadow: 0 10px 30px rgba(0,0,0,.1); /* Stripe shadow */
+border-radius: 15px;
+margin: 20px 0px;
+text-align: center;
+}
+
+.img-circle{
+border-radius: 50%;
+}
+
+.btn-blue{
+  background-color: blue;
+  color: white ;
+  padding: 15px 20px;
+  border-radius: 15px;
+}
+
+.btn-blue:hover{
+  background-color: black;
+  color: white;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li{
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i{
+  font-size: 50px;
+  color: #2cccc4;
+}
+
+.list-inline i:hover{
+  font-size: 50px;
+  color: white;
+}
+
+/* Design adjusments using id (1% design remaigning) */
+#introduction p{
+  margin-bottom: 40px;
+}
+
+
+.icon-red i{
+  font-size: 40px;
+  color: #db545a;
+}
+
+.icon-red i:hover{
+  font-size: 40px;
+  color: black;
+}
+
+.section-2{
+grid-template-columns: repeat(3, calc(33.3333% - 42px));
+    min-height: 391px;
+    grid-gap: 10px;
+        display: grid;
+    grid-template-columns: repeat(3, 33.33333333%);
+  }
+
+.text-detail{
+  font-style: italic;
+    font-weight: normal;
+    margin: 20px 0 0;
+    color: #6b4748;
+        margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.6;
+    list-icon-spacing: 0.3;
+    list-icon-size: 0.8;
+font-family: 'Open Sans',sans-serif;
+}
+
+.btn-more{
+      color: #ffffff !important;
+    background-color: #db545a !important;
+    font-size: 0.875rem;
+    letter-spacing: 1px;
+    border-style: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-image: none;
+    margin: 53px auto 0;
+        border-radius: 50px !important;
+padding: 10px 30px;
+}
+
+.btn-more a:hover{
+  color: black;
+}
